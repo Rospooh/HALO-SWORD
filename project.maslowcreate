@@ -1,42 +1,39 @@
 {
-    "molecules": [
+    "atomType": "Molecule",
+    "name": "HALO SWORD",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 920070,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
         {
-            "atomType": "Molecule",
-            "name": "HALO SWORD",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 920070,
-            "ioValues": [],
-            "topLevel": true,
-            "allAtoms": [
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 488,
+            "y": 179,
+            "uniqueID": 875887,
+            "ioValues": [
                 {
-                    "atomType": "RegularPolygon",
-                    "name": "RegularPolygon",
-                    "x": 488,
-                    "y": 179,
-                    "uniqueID": 875887,
-                    "ioValues": [
-                        {
-                            "name": "number of sides",
-                            "ioValue": 6
-                        },
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ]
+                    "name": "number of sides",
+                    "ioValue": 6
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1408,
-                    "y": 198.5,
-                    "ioValues": []
+                    "name": "diameter",
+                    "ioValue": 10
                 }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
+            ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 1408,
+            "y": 198.5,
+            "ioValues": []
         }
     ],
+    "allConnectors": [],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
     "circleSegmentSize": "0.1"
 }
